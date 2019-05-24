@@ -7,8 +7,10 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <link rel="stylesheet" href="css/bootstrap.min.css"/>
         <title>JSP Page</title>
     </head>
     <body>
@@ -17,18 +19,22 @@
             <div  class="hero-slider owl-carousel">
                 <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-1.jpg">
                     <div class="container">
-                        <form class="form-group" action="create.htm" method="POST">
-                            <label>ID</label>
-                            <input class="form-control" type="text" name="id" />
-                            <label>Nombre</label>
-                            <input class="form-control" type="text" name="nombre" />
-                            <label>ISBN</label>
-                            <input class="form-control" type="text" name="isbn" />
+                        <form class="form-group" action="create.htm" method="POST"> 
+                            <label>Velocidad Inicial</label> 
+                            <input class="form-control" type="text" name="vel_ini" /><br>
+                            <label>Velocidad Final</label>
+                            <input class="form-control" type="text" name="vel_final" /><br>
+                            <label>Gravedad</label>
+                            <input class="form-control" type="text" name="gravedad" /><br>
+                            <label>Tiempo</label>
+                            <input class="form-control" type="text" name="tiempo" /><br>
                             <input class="btn btn-primary" type="submit" name="Grabar" />
                         </form>
                     </div>
                 </div>
             </div>
         </section>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

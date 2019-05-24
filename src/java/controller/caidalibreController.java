@@ -17,22 +17,24 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class caidalibreController {
-    @RequestMapping(value="/caidalibre/create.htm",method=RequestMethod.GET)
+    @RequestMapping(value="/caidaLibre/create.htm",method=RequestMethod.GET)
     public String create(Model m){
-        return "/caidalibre/form";
+        return "/caidaLibre/form";
     }
-    @RequestMapping(value="/caidalibre/create.htm",method=RequestMethod.POST)
+    @RequestMapping(value="/caidaLibre/create.htm",method=RequestMethod.POST)
     public String create(
-            @RequestParam("id") int id, 
-            @RequestParam("nombre") String nombre,
-            @RequestParam("isbn") String ISBN,
+            @RequestParam("vel_final") double v_final, 
+            @RequestParam("vel_ini") double v_ini,
+            @RequestParam("gravedad") double gravedad,
+            @RequestParam("tiempo") double tiempo,
             Model m){
-        Libro miLibro= new Libro();
-        miLibro.setId(id);
-        miLibro.setNombre(nombre);
-        miLibro.setISBN(ISBN);
-        m.addAttribute("miLibro",miLibro);
-        return "/libro/view";
+        CaidaLibre clibre= new CaidaLibre();
+        clibre.setVel_final(v_final);
+        clibre.setVel_ini(v_ini);
+        clibre.setGravedad(gravedad);
+        clibre.setTiempo(tiempo);
+        m.addAttribute("clibre",clibre);
+        return "/caidaLibre/view";
         
     }
 }
