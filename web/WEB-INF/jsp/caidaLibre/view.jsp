@@ -17,7 +17,7 @@
         <div   class="container">
              <form class="form-group" action="create.htm" method="POST">
             <label>ID: </label>
-            <input class="form-control" type="text" name="id" value="${requestScope.clibre.v_libre}"/>
+            <input class="form-control" type="text" name="id" value="${requestScope.clibre.vel_ini}"/>
             
             
         </form>
