@@ -12,6 +12,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <script>
+          function justNumbers(e)
+        {
+        var keynum = window.event ? window.event.keyCode : e.which;
+        if ((keynum == 8) || (keynum == 46))
+        return true;
+         
+        return /\d/.test(String.fromCharCode(keynum));
+        }
+        </script>
     </head>
     <body>
         <h1>Movimiento rectilineo Uniforme</h1>
@@ -20,10 +30,10 @@
                   <div class="container">
                         <form class="form-group" action="create.htm" method="POST"> 
                              <label>Velocidad</label>
-                            <input class="form-control" type="text" name="velocidad" /><br>
+                            <input onkeypress="return justNumbers(event);" class="form-control" type="text" name="velocidad" /><br>
                             
                             <label>Tiempo</label>
-                            <input class="form-control" type="text" name="tiempo" /><br>
+                            <input onkeypress="return justNumbers(event);" class="form-control" type="text" name="tiempo" /><br>
                             <input class="btn btn-primary" type="submit" name="Grabar" />
                         </form>
                     </div>
