@@ -1,6 +1,6 @@
 <%-- 
-    Document   : form_vel_inicial
-    Created on : 24/05/2019, 20:47:48
+    Document   : form_vel_final
+    Created on : 24/05/2019, 22:28:19
     Author     : PC
 --%>
 
@@ -20,14 +20,15 @@
             
                 
                     <div class="container">
-                        <form class="form-group" action="velInicial.htm" method="POST"> 
+                        <form class="form-group" action="velTiempo.htm" method="POST"> 
                             
                             <label>Velocidad Inicial</label>
                             <input class="form-control" type="text" name="vel_ini" /><br>
+                            <label>Velocidad Final</label>
+                            <input class="form-control" type="text" name="vel_final" /><br>
                             <label>Gravedad</label>
                             <input class="form-control" type="text" name="gravedad" /><br>
-                            <label>Tiempo</label>
-                            <input class="form-control" type="text" name="tiempo" /><br>
+                            
                             <input class="btn btn-primary" id="grabar" type="submit" name="grabar" />
                         </form>
                     </div>

@@ -11,6 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
          <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        
         <title>JSP Page</title>
     </head>
     <body>
@@ -21,13 +22,13 @@
                     <div class="container">
                         <form class="form-group" action="velInicial.htm" method="POST"> 
                             
-                            <label>Velocidad Final</label>
-                            <input class="form-control" type="text" name="vel_final" /><br>
+                            <label>Velocidad Inicial</label>
+                            <input class="form-control" type="text" name="vel_ini" /><br>
                             <label>Gravedad</label>
                             <input class="form-control" type="text" name="gravedad" /><br>
                             <label>Tiempo</label>
                             <input class="form-control" type="text" name="tiempo" /><br>
-                            <input class="btn btn-primary" type="submit" name="Grabar" />
+                            <input class="btn btn-primary" id="grabar" type="submit" name="grabar" />
                         </form>
                     </div>
                 

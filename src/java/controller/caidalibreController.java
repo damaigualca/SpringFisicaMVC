@@ -28,17 +28,69 @@ public class caidalibreController {
     @RequestMapping(value="/caidaLibre/velInicial.htm",method=RequestMethod.POST)
     public String velInicial(
              
-            @RequestParam("vel_final") double v_final, 
+            @RequestParam("vel_ini") double v_ini, 
             @RequestParam("gravedad") double gravedad,
             @RequestParam("tiempo") double tiempo,
             
             Model m){
         
         
-        double v_ini=v_final+gravedad*tiempo;
+        double v_final=v_ini+gravedad*tiempo;
         
         CaidaLibre clibre= new CaidaLibre();
         clibre.setVel_final(v_final);
+        clibre.setVel_ini(v_ini);
+        clibre.setGravedad(gravedad);
+        clibre.setTiempo(tiempo);
+        
+        m.addAttribute("clibre",clibre);
+        return "/caidaLibre/view";
+        
+    }
+    @RequestMapping(value="/caidaLibre/velTiempo.htm",method=RequestMethod.GET)
+    public String velTiempo(Model m){
+        return "/caidaLibre/form_tiempo";
+    }
+    @RequestMapping(value="/caidaLibre/velTiempo.htm",method=RequestMethod.POST)
+    public String velTiempo(
+             
+            @RequestParam("vel_final") double v_final, 
+            @RequestParam("gravedad") double gravedad,
+            @RequestParam("vel_ini") double v_ini,
+            
+            Model m){
+        
+        
+        double tiempo=(v_final-v_ini)/gravedad;
+        
+        CaidaLibre clibre= new CaidaLibre();
+        clibre.setVel_final(v_final);
+        clibre.setVel_ini(v_ini);
+        clibre.setGravedad(gravedad);
+        clibre.setTiempo(tiempo);
+        
+        m.addAttribute("clibre",clibre);
+        return "/caidaLibre/view";
+        
+    }
+     @RequestMapping(value="/caidaLibre/altura.htm",method=RequestMethod.GET)
+    public String altura(Model m){
+        return "/caidaLibre/form_altura";
+    }
+    @RequestMapping(value="/caidaLibre/altura.htm",method=RequestMethod.POST)
+    public String altura(
+             
+            @RequestParam("tiempo") double tiempo, 
+            @RequestParam("gravedad") double gravedad,
+            @RequestParam("vel_ini") double v_ini,
+            
+            Model m){
+        
+        
+        double altura=(v_ini*tiempo)+(0.5*gravedad*Math.pow(tiempo,2));
+        
+        CaidaLibre clibre= new CaidaLibre();
+        clibre.setVel_final(altura);
         clibre.setVel_ini(v_ini);
         clibre.setGravedad(gravedad);
         clibre.setTiempo(tiempo);

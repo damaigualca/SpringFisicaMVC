@@ -70,9 +70,9 @@
                                 <li><a href="#">MRU</a></li>
                                 <li><a href="#">Caída Libre</a>
                                     <ul class="dropdown-toggle-split" >
-                                        <li style="color: blue; "><a  href="caidaLibre/velInicial.htm">--Calcular Vel. Inicial</a></li>
-                                        <li><a href="caidaLibre/create.htm">--Calcular Tiempo</a></li>
-                                        <li><a href="caidaLibre/create.htm">--Calcular Velocidad Final</a></li>
+                                        <li style="color: blue; "><a  href="caidaLibre/velInicial.htm">--Calcular Vel. Final</a></li>
+                                        <li><a href="caidaLibre/velTiempo.htm">--Calcular Tiempo</a></li>
+                                        <li><a href="caidaLibre/altura.htm">--Calcular Altura</a></li>
                                     </ul>
 
                                 </li>
