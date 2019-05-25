@@ -53,6 +53,7 @@
                 <a href="#"><i class="fa fa-dribbble"></i></a>
                 <a href="#"><i class="fa fa-behance"></i></a>
             </div>
+<<<<<<< Updated upstream
             <div class="header-bar-warp d-flex">
                 <!-- site logo -->
                 <a href="index.htm" class="site-logo">
@@ -87,6 +88,12 @@
                     </ul>
                 </nav>
             </div>
+=======
+
+        
+               <jsp:include page="menu.jsp" />
+          
+>>>>>>> Stashed changes
         </div>
     </header>
 
