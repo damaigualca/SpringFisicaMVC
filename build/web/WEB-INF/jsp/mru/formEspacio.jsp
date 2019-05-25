@@ -28,7 +28,7 @@
          <h3>Calculo de la Espacio</h3>
         <section  class="hero-section overflow-hidden">
                   <div class="container">
-                        <form class="form-group" action="create.htm" method="POST"> 
+                        <form class="form-group" action="create-espacio.htm" method="POST"> 
                              <label>Velocidad</label>
                             <input onkeypress="return justNumbers(event);" class="form-control" type="text" name="velocidad" /><br>
                             

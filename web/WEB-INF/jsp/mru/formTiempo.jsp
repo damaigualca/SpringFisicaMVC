@@ -39,12 +39,12 @@
          <h3>Calculo de la Tiempo</h3>
         <section  class="hero-section overflow-hidden">
                   <div class="container">
-                        <form class="form-group" action="create.htm" method="POST"> 
+                        <form class="form-group" action="create-tiempo.htm" method="POST"> 
                              <label>Espacio</label>
                             <input onkeypress="return justNumbers(event);" class="form-control" type="text" name="espacio" /><br>
                             
                             <label>Velocidad</label>
-                            <input onkeypress="return justNumbers(event);" class="form-control" type="text" name="espacio" /><br>
+                            <input onkeypress="return justNumbers(event);" class="form-control" type="text" name="velocidad" /><br>
                             <input  class="btn btn-primary" type="submit" name="Grabar" />
                         </form>
                     </div>

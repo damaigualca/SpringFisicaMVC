@@ -34,8 +34,6 @@ public class mruController {
    
      @RequestMapping(value="/mru/create.htm",method=RequestMethod.POST)
     public String create(
-            
-           
             @RequestParam("tiempo") double tiempo,
             @RequestParam("espacio") double espacio,
      
