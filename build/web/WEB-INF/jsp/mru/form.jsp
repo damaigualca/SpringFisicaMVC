@@ -36,7 +36,7 @@
                             <input   onkeypress="return justNumbers(event);" class="form-control" type="text" name="espacio" /><br>
                             
                             <label>Tiempo</label>
-                            <input class="form-control" type="text" name="tiempo" /><br>
+                            <input onkeypress="return justNumbers(event);" class="form-control" type="text" name="tiempo" /><br>
                             <input class="btn btn-primary" type="submit" name="Grabar" />
                         </form>
                     </div>
