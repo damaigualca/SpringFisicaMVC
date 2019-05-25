@@ -67,9 +67,18 @@
                         <li><a href="home.html">Inicio</a></li>
                         <li><a href="games.html">Cursos</a>
                             <ul class="sub-menu">
-                                <li><a href="mru/create.htm">MRU</a></li>
-                                <li><a href="caidaLibre/create.htm">Caída Libre</a></li>
-                                <li><a href="game-single.html">Mov.Parabólico</a></li>
+                                <li><a href="#">MRU</a></li>
+                                <li><a href="#">Caída Libre</a>
+                                    <ul class="dropdown-toggle-split" >
+                                        <li style="color: blue; "><a  href="caidaLibre/velInicial.htm">--Calcular Vel. Inicial</a></li>
+                                        <li><a href="caidaLibre/create.htm">--Calcular Tiempo</a></li>
+                                        <li><a href="caidaLibre/create.htm">--Calcular Velocidad Final</a></li>
+                                    </ul>
+
+                                </li>
+                                <li><a href="game-single.html">Mov.Parabólico</a>
+
+                                </li>
                             </ul>
                         </li>
                         <li><a href="teroria.html">Teoría</a></li>
@@ -80,6 +89,7 @@
             </div>
         </div>
     </header>
+
     <!-- Header section end -->
 
     <!-- Hero section -->
@@ -90,10 +100,10 @@
                     <h2>Física Gamer Fest!</h2>
                     <p>
                         El Sitio Web te permite resolver problemas  de: <br>
-                    
+
                         MRU Movimiento Rectilineo Uniforme <br>
                         Caida Libre de los Cuerpos<br>
-                    Movimiento Parabólico</p>
+                        Movimiento Parabólico</p>
                     <a id="link1" href="#section1" class="site-btn">Leer Más  <img src="img/icons/double-arrow.png" alt="#"/></a>
                 </div>
             </div>

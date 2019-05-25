@@ -21,18 +21,49 @@ public class caidalibreController {
     public String create(Model m){
         return "/caidaLibre/form";
     }
-    @RequestMapping(value="/caidaLibre/create.htm",method=RequestMethod.POST)
-    public String create(
+    @RequestMapping(value="/caidaLibre/velInicial.htm",method=RequestMethod.GET)
+    public String velInicial(Model m){
+        return "/caidaLibre/form_vel_inicial";
+    }
+    @RequestMapping(value="/caidaLibre/velInicial.htm",method=RequestMethod.POST)
+    public String velInicial(
+             
             @RequestParam("vel_final") double v_final, 
-            @RequestParam("vel_ini") double v_ini,
             @RequestParam("gravedad") double gravedad,
             @RequestParam("tiempo") double tiempo,
+            
             Model m){
+        
+        
+        double v_ini=v_final+gravedad*tiempo;
+        
         CaidaLibre clibre= new CaidaLibre();
         clibre.setVel_final(v_final);
         clibre.setVel_ini(v_ini);
         clibre.setGravedad(gravedad);
         clibre.setTiempo(tiempo);
+        
+        m.addAttribute("clibre",clibre);
+        return "/caidaLibre/view";
+        
+    }
+    @RequestMapping(value="/caidaLibre/create.htm",method=RequestMethod.POST)
+    public String create(
+            
+            @RequestParam("vel_final") double v_final, 
+            @RequestParam("vel_ini") double v_ini,
+            @RequestParam("gravedad") double gravedad,
+            @RequestParam("tiempo") double tiempo,
+            
+            Model m){
+        double resultado=v_final*v_ini;
+        
+        CaidaLibre clibre= new CaidaLibre();
+        clibre.setVel_final(v_final);
+        clibre.setVel_ini(v_ini);
+        clibre.setGravedad(gravedad);
+        clibre.setTiempo(tiempo);
+        
         m.addAttribute("clibre",clibre);
         return "/caidaLibre/view";
         

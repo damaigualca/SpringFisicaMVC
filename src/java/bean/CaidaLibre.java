@@ -15,18 +15,14 @@ public class CaidaLibre {
     private double gravedad;
     private double tiempo;
 
-    public CaidaLibre() {
-    }
-
-    public CaidaLibre(double vel_final) {
-        this.vel_final = vel_final;
-    }
-
     public CaidaLibre(double vel_final, double vel_ini, double gravedad, double tiempo) {
         this.vel_final = vel_final;
         this.vel_ini = vel_ini;
         this.gravedad = gravedad;
         this.tiempo = tiempo;
+    }
+
+    public CaidaLibre() {
     }
 
     public double getVel_final() {
@@ -60,5 +56,5 @@ public class CaidaLibre {
     public void setTiempo(double tiempo) {
         this.tiempo = tiempo;
     }
-    
+
 }
