@@ -67,7 +67,7 @@
                         <li><a href="home.html">Inicio</a></li>
                         <li><a href="games.html">Cursos</a>
                             <ul class="sub-menu">
-                                <li><a href="#section1">MRU</a></li>
+                                <li><a href="caidaLibre/create.htm">MRU</a></li>
                                 <li><a href="game-single.html">Caída Libre</a></li>
                                 <li><a href="game-single.html">Mov.Parabólico</a></li>
                             </ul>
