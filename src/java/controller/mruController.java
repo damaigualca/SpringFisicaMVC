@@ -70,10 +70,12 @@ public class mruController {
             @RequestParam("espacio") double espacio,
             @RequestParam("velocidad") double velocidad,
             Model m){
+        double tiempo=espacio/velocidad;
         MRU mru= new MRU();
         mru.setVelocidad(velocidad);
         mru.setEspacio(espacio);
-        mru.CalcularTiempo();        
+        mru.setTiempo(tiempo);
+              
       
         m.addAttribute("mru",mru);
         return "/mru/view";  

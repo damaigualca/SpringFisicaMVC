@@ -8,16 +8,20 @@
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/mru/formTiempo.jsp</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/footer.jsp</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/movParabolico/form_altura.jsp</file>
+            <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/movParabolico/view.jsp</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/movParabolico/form_tiempo.jsp</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/src/java/controller/caidalibreController.java</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/mru/view.jsp</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/src/java/bean/MovimientoParabolico.java</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/caidaLibre/form_vel_inicial.jsp</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/js/funciones.js</file>
+            <file>file:/C:/Users/PC/SpringFisicaMVC/src/java/bean/CaidaLibre.java</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/src/java/controller/parabolaController.java</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/src/java/controller/mruController.java</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/caidaLibre/view.jsp</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/mru/form.jsp</file>
+            <file>file:/C:/Users/PC/SpringFisicaMVC/src/java/bean/MRU.java</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/caidaLibre/form_tiempo.jsp</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/caidaLibre/form_altura.jsp</file>
             <file>file:/C:/Users/PC/SpringFisicaMVC/web/WEB-INF/jsp/caidaLibre/form.jsp</file>

@@ -25,7 +25,7 @@
                             <br>
         <section  class="hero-section overflow-hidden">
                   <div class="container">
-                        <form class="form-group" action="create.htm" method="POST"> 
+                        <form class="form-group" action="create-espacio.htm" method="POST"> 
                              <label>Velocidad</label>
                             <input class="form-control" type="text" name="velocidad" /><br>
                             

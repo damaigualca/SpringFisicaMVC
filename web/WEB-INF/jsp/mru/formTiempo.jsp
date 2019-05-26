@@ -41,12 +41,12 @@
                             <br>
         <section  class="hero-section overflow-hidden">
                   <div class="container">
-                        <form class="form-group" action="create.htm" method="POST"> 
+                        <form class="form-group" action="create-tiempo.htm" method="POST"> 
                              <label>Espacio</label>
                             <input class="form-control" type="text" name="espacio" /><br>
                             
                             <label>Velocidad</label>
-                            <input class="form-control" type="text" name="espacio" /><br>
+                            <input class="form-control" type="text" name="velocidad" /><br>
                             <input  class="btn btn-primary" type="submit" name="Grabar" />
                         </form>
                     </div>
