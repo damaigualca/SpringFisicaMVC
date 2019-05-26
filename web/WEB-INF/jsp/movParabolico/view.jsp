@@ -16,21 +16,16 @@
     <body>
         <h1>Caida Libre Registrado</h1>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
         <div   class="container">
             <form class="form-group" action="velInicial.htm" method="GET">
-                <label>Velocidad Inicial </label>
+                <label>Respuesta </label>
                 <label class="form-control" type="text" name="id" >${requestScope.clibre.vel_ini} </label>
-                <label>Velocidad Final </label>
-                <label class="form-control" type="text" name="id" >${requestScope.clibre.vel_final} </label>
-                <label>Gravedad </label>
-                <label class="form-control" type="text" name="id" >${requestScope.clibre.gravedad} </label>
-                <label>Tiempo </label>
-                <label class="form-control" type="text" name="id" >${requestScope.clibre.tiempo} </label><br>
+
 
 
             </form>

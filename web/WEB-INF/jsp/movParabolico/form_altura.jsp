@@ -33,8 +33,8 @@
                             <br>
                             <label>Velocidad Inicial</label>
                             <input class="form-control" type="text" name="vel_ini" /><br>
-                            <label>Tiempo</label>
-                            <input class="form-control" type="text" name="tiempo" /><br>
+                            <label>Angulo</label>
+                            <input class="form-control" type="text" name="angulo" /><br>
                             <label>Gravedad</label>
                             <input class="form-control" type="text" name="gravedad" /><br>
                             

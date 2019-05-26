@@ -11,11 +11,18 @@
    
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <%@include file="../base.jsp" %>
+        <title>Calcular Espacio</title>
     </head>
     <body>
-        <h1>Movimiento rectilineo Uniforme</h1>
+        
          <h3>Calculo de la Espacio</h3>
+          <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
         <section  class="hero-section overflow-hidden">
                   <div class="container">
                         <form class="form-group" action="create.htm" method="POST"> 
@@ -29,5 +36,6 @@
                     </div>
                
         </section>
+          <%@include file="../footer.jsp" %>
     </body>
 </html>

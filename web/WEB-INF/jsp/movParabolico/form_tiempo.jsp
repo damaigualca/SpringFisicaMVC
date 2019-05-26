@@ -16,7 +16,7 @@
         <%@include file="../base.jsp" %>
     </head>
     <body>
-        <h2>Datos Cálculo Tiempo</h2>
+        <h2>Datos Cálculo Desplazamiento</h2>
         <section  class="hero-section overflow-hidden">
 
             <br>
@@ -30,8 +30,8 @@
 
                     <label>Velocidad Inicial</label>
                     <input class="form-control" type="text" name="vel_ini" /><br>
-                    <label>Velocidad Final</label>
-                    <input class="form-control" type="text" name="vel_final" /><br>
+                    <label>Angulo</label>
+                    <input class="form-control" type="text" name="angulo" /><br>
                     <label>Gravedad</label>
                     <input class="form-control" type="text" name="gravedad" /><br>
                     <br>

@@ -13,11 +13,17 @@
          <link rel="stylesheet" href="css/bootstrap.min.css"/>
         
         <title>JSP Page</title>
+        <%@include file="../base.jsp" %>
     </head>
     <body>
-        <h1>Datos Caída Libre</h1>
+        <h1>Calcular Velocidad Final</h1>
         <section  class="hero-section overflow-hidden">
-            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
                 
                     <div class="container">
                         <form class="form-group" action="velInicial.htm" method="POST"> 
@@ -34,6 +40,7 @@
                 
             
         </section>
+         <jsp:include page="../footer.jsp"></jsp:include> 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     </body>

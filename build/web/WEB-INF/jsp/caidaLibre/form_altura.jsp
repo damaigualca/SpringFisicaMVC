@@ -10,18 +10,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       
+        
+       
          <link rel="stylesheet" href="css/bootstrap.min.css"/>
         
         <title>JSP Page</title>
+        <%@include file="../base.jsp" %>
     </head>
     <body>
-        <h1>Datos Caída Libre</h1>
+        <h1>Calcular altura</h1>
         <section  class="hero-section overflow-hidden">
             
                 
                     <div class="container">
                         <form class="form-group" action="altura.htm" method="POST"> 
-                            
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
                             <label>Velocidad Inicial</label>
                             <input class="form-control" type="text" name="vel_ini" /><br>
                             <label>Tiempo</label>
@@ -35,7 +44,8 @@
                 
             
         </section>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+        <jsp:include page="../footer.jsp"></jsp:include> 
+    
+
     </body>
 </html>

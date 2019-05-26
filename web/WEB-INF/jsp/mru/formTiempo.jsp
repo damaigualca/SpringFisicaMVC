@@ -25,24 +25,20 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
 
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="css/slicknav.min.css"/>
-        <link rel="stylesheet" href="css/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="css/magnific-popup.css"/>
-        <link rel="stylesheet" href="css/animate.css"/>
-
-        <!-- Main Stylesheets -->
-        <link rel="stylesheet" href="css/style.css"/>
-
+       
     </head>
     <header>
-        <jsp:include page="munu.jsp" ></jsp:include>
+        <%@include file="../base.jsp" %>
     </header>
     <body>
-        <h1>Movimiento rectilineo Uniforme</h1>
+        
          <h3>Calculo de la Tiempo</h3>
+          <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
         <section  class="hero-section overflow-hidden">
                   <div class="container">
                         <form class="form-group" action="create.htm" method="POST"> 
@@ -56,13 +52,8 @@
                     </div>
                
         </section>
+         <%@include file="../footer.jsp" %>
           </body>
-          <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky-sidebar.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/funciones.js"></script>
+    
+    
 </html>

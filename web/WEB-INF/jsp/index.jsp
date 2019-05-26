@@ -1,368 +1,217 @@
+<%-- 
+    Document   : index
+    Created on : 25/05/2019, 16:02:56
+    Author     : PC
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-    "http://www.w3.org/TR/html4/loose.dtd">
-
 <!DOCTYPE html>
-<html lang="zxx">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<html>
     <head>
-        <title>Física Gamer Fest</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="Fisica Gamer Fest Template">
-        <meta name="keywords" content="Fisica,Gamer Fest,Software html">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="shortcut icon"/>
-
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="css/slicknav.min.css"/>
-        <link rel="stylesheet" href="css/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="css/magnific-popup.css"/>
-        <link rel="stylesheet" href="css/animate.css"/>
-
-        <!-- Main Stylesheets -->
-        <link rel="stylesheet" href="css/style.css"/>
-
-
-        <!--[if lt IE 9]>
-                  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <%@include file="base.jsp" %>            
+        <title>JSP Page</title>
     </head>
     <body>
-        <!-- Page Preloder -->
-        <div id="preloder">
-            <div class="loader"></div>
-        </div>
+        <section  class="hero-section overflow-hidden">
+            <div  class="hero-slider owl-carousel">
+                <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-1.jpg">
+                    <div class="container">
+                        <h2>Física Gamer Fest!</h2>
+                        <p>
+                            El Sitio Web te permite resolver problemas  de: <br>
 
-        <!-- Header section -->
-    <header class="header-section">
-        <div class="header-warp">
-            <div class="header-social d-flex justify-content-end">
-                <p>Follow us:</p>
-                <a href="#"><i class="fa fa-pinterest"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-dribbble"></i></a>
-                <a href="#"><i class="fa fa-behance"></i></a>
-            </div>
-<<<<<<< Updated upstream
-            <div class="header-bar-warp d-flex">
-                <!-- site logo -->
-                <a href="index.htm" class="site-logo">
-                    <img src="./img/logo.png" alt="">
-                </a>
-                <nav class="top-nav-area w-100">
-                    <div class="user-panel">
-                        <a href="">Login</a> / <a href="">Register</a>
+                            MRU Movimiento Rectilineo Uniforme <br>
+                            Caida Libre de los Cuerpos<br>
+                            Movimiento Parabólico</p>
+                        <a id="link1" href="#section1" class="site-btn">Leer Más  <img src="img/icons/double-arrow.png" alt="#"/></a>
                     </div>
-                    <!-- Menu -->
-                    <ul class="main-menu primary-menu">
-                        <li><a href="home.html">Inicio</a></li>
-                        <li><a href="games.html">Cursos</a>
-                            <ul class="sub-menu">
-                                <li><a href="#">MRU</a></li>
-                                <li><a href="#">Caída Libre</a>
-                                    <ul class="dropdown-toggle-split" >
-                                        <li style="color: blue; "><a  href="caidaLibre/velInicial.htm">--Calcular Vel. Final</a></li>
-                                        <li><a href="caidaLibre/velTiempo.htm">--Calcular Tiempo</a></li>
-                                        <li><a href="caidaLibre/altura.htm">--Calcular Altura</a></li>
-                                    </ul>
+                </div>
+                <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-2.jpg">
+                    <div class="container">
+                        <h2>Próximamente!</h2>
+                        <p>El evento más esperado del centro del país en el Gamer Fest podrás demostrar que eres un ganador.</p>
+                        <a href="https://gamerfest.app" class="site-btn">Leer Más  <img src="img/icons/double-arrow.png" alt="#"/></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog section -->
+        <section class="blog-section spad">
+            <div  id="section1"  name="section1" class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-8 col-md-7">
+                        <div class="section-title text-white">
+                            <h2>Física En General</h2>
+                        </div>
+                        <div class="blog-text text-box text-white">
+
+                            <h3>Movimiento Rectinileo Uniforme!</h3>
+                        </div>
+                        <!-- Blog item -->
+                        <div class="blog-item">
+                            <div class="blog-thumb">
+                                <img src="./img/blog/1.jpg" alt="">
+                            </div>
+                            <div class="blog-text text-box text-white">
+                                <div class="top-meta">11.11.18  /  in <a href="">Información</a></div>
+                                <h3>Teoría del MRU!</h3>
+                                <p>El movimiento rectilíneo uniforme (m.r.u.), es aquel con velocidad constante y cuya trayectoria es una línea recta. Un ejemplo claro son las puertas correderas de un ascensor, generalmente se abren y cierran en línea recta y siempre a la misma velocidad.
+
+                                </p>
+                                <a href="#section1" class="read-more">Calculemos:  <img src="img/icons/double-arrow.png" alt="#"/></a>
+                            </div>
+                            <ul class="blog-filter">
+
+
+                                <li><a  href="<c:url value="/mru/create.htm"/>"> Velocidad</a></li>
+                                <li><a href="<c:url value="/mru/create-tiempo.htm"/>"> Tiempo</a</li>
+                                <li><a href="<c:url value="/mru/create-espacio.htm"/>"> Espacio</a>
 
                                 </li>
-                                <li><a href="game-single.html">Mov.Parabólico</a>
 
                                 </li>
+
                             </ul>
-                        </li>
-                        <li><a href="teroria.html">Teoría</a></li>
-                        <li><a href="https://gamerfest.app">Gamer Fest</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-=======
-        
-               <jsp:include page="menu.jsp" />
-          
->>>>>>> Stashed changes
-        </div>
-    </header>
-
-    <!-- Header section end -->
-
-    <!-- Hero section -->
-    <section  class="hero-section overflow-hidden">
-        <div  class="hero-slider owl-carousel">
-            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-1.jpg">
-                <div class="container">
-                    <h2>Física Gamer Fest!</h2>
-                    <p>
-                        El Sitio Web te permite resolver problemas  de: <br>
-
-                        MRU Movimiento Rectilineo Uniforme <br>
-                        Caida Libre de los Cuerpos<br>
-                        Movimiento Parabólico</p>
-                    <a id="link1" href="#section1" class="site-btn">Leer Más  <img src="img/icons/double-arrow.png" alt="#"/></a>
-                </div>
-            </div>
-            <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-2.jpg">
-                <div class="container">
-                    <h2>Próximamente!</h2>
-                    <p>El evento más esperado del centro del país en el Gamer Fest podrás demostrar que eres un ganador.</p>
-                    <a href="https://gamerfest.app" class="site-btn">Leer Más  <img src="img/icons/double-arrow.png" alt="#"/></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero section end-->
-
-
-    <!-- Intro section -->
-    <section class="intro-section">
-        <div id="section1" class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="intro-text-box text-box text-white">
-                        <div class="top-meta">11.11.18  /  in <a href="formulario.htm">Games</a></div>
-                        <h3>The best online game is out now!</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....</p>
-                        <a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="intro-text-box text-box text-white">
-                        <div class="top-meta">11.11.18  /  in <a href="">Playstation</a></div>
-                        <h3>Top 5 best games in november</h3>
-                        <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  labore suspendisse ultrices gravida....</p>
-                        <a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="intro-text-box text-box text-white">
-                        <div class="top-meta">11.11.18  /  in <a href="">Reviews</a></div>
-                        <h3>Get this game at a promo price</h3>
-                        <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....</p>
-                        <a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Intro section end -->
-
-
-    <!-- Blog section -->
-    <section class="blog-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-9 col-lg-8 col-md-7">
-                    <div class="section-title text-white">
-                        <h2>Latest News</h2>
-                    </div>
-                    <ul class="blog-filter">
-                        <li><a href="#">Racing</a></li>
-                        <li><a href="#">Shooters</a></li>
-                        <li><a href="#">Strategy</a></li>
-                        <li><a href="#">Online</a></li>
-                    </ul>
-                    <!-- Blog item -->
-                    <div class="blog-item">
-                        <div class="blog-thumb">
-                            <img src="./img/blog/1.jpg" alt="">
                         </div>
+                        <!-- Blog item -->
                         <div class="blog-text text-box text-white">
-                            <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-                            <h3>The best online game is out now!</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-                            <a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+
+                            
                         </div>
-                    </div>
-                    <!-- Blog item -->
-                    <div class="blog-item">
-                        <div class="blog-thumb">
-                            <img src="./img/blog/2.jpg" alt="">
+                        <div class="blog-item">
+                            <div class="blog-thumb">
+                                <img src="./img/blog/2.jpg" alt="">
+                            </div>
+                            <div class="blog-text text-box text-white">
+
+                                <h3>Teoría de Caída Libre!</h3>
+                                <p>Se le llama caída libre al movimiento que se debe únicamente a la influencia de la gravedad.
+
+                                    Todos los cuerpos con este tipo de movimiento tienen una aceleración dirigida hacia abajo cuyo valor depende del lugar en el que se encuentren. En la Tierra este valor es de aproximadamente 9.8 m/s2, es decir que los cuerpos dejados en caída libre aumentan su velocidad (hacia abajo) en 9.8 m/s cada segundo.
+                                    En la caída libre no se tiene en cuenta la resistencia del aire.
+
+
+                                </p>
+                                <a href="#section1" class="read-more">Calculemos:  <img src="img/icons/double-arrow.png" alt="#"/></a>
+                            </div>
+                            <ul class="blog-filter">
+
+
+                              <li><a  href="<c:url value="/caidaLibre/velInicial.htm"/>" >Vel. Final</a></li>                          
+                                <li><a href="<c:url value="/caidaLibre/velTiempo.htm"/>"> Tiempo</a></li>
+                                <li><a href="<c:url value="/caidaLibre/altura.htm"/>"> Altura</a></li>
+
+                                </li>
+
+                                </li>
+
+                            </ul>
                         </div>
+                        <!-- Blog item -->
+                        <div class="blog-item">
+                            <div class="blog-thumb">
+                                <img src="./img/blog/3.png" alt="">
+                            </div>
+                            <div class="blog-text text-box text-white">
+                                <div class="top-meta">11.11.18  /  in <a href="">Información</a></div>
+                                <h3>Teoría del Movimiento Parabólico!</h3>
+                                <p>Se denomina movimiento parabólico al movimiento realizado por cualquier objeto cuya trayectoria describe una parábola. Se corresponde con la trayectoria ideal de un proyectil que se mueve en un medio que no ofrece resistencia al avance y que está sujeto a un campo gravitatorio uniforme. El movimiento parabólico es un ejemplo de un movimiento realizado por un objeto en dos dimensiones o sobre un plano. Puede considerarse como la combinación de dos movimientos que son un movimiento horizontal uniforme y un movimiento vertical acelerado.
+
+                                </p>
+                                <a href="#section1" class="read-more">Calculemos:  <img src="img/icons/double-arrow.png" alt="#"/></a>
+                            </div>
+                            <ul class="blog-filter">
+
+
+                                           
+                                <li><a href="<c:url value="/movParabolico/velTiempo.htm"/>"> Desplazamiento</a></li>
+                                <li><a href="<c:url value="/movParabolico/altura.htm"/>"> Altura</a></li>
+
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        <!-- Blog item -->
                         <div class="blog-text text-box text-white">
-                            <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-                            <h3>The best online game is out now!</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-                            <a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+                            <br><br>
+                            
                         </div>
+                        <!-- Blog item -->
+
                     </div>
-                    <!-- Blog item -->
-                    <div class="blog-item">
-                        <div class="blog-thumb">
-                            <img src="./img/blog/3.jpg" alt="">
-                        </div>
-                        <div class="blog-text text-box text-white">
-                            <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-                            <h3>The best online game is out now!</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-                            <a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-5 sidebar">
-                    <div id="stickySidebar">
-                        <div class="widget-item">
-                            <h4 class="widget-title">Trending</h4>
-                            <div class="trending-widget">
-                                <div class="tw-item">
-                                    <div class="tw-thumb">
-                                        <img src="./img/blog-widget/1.jpg" alt="#">
-                                    </div>
-                                    <div class="tw-text">
-                                        <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-                                        <h5>The best online game is out now!</h5>
-                                    </div>
-                                </div>
-                                <div class="tw-item">
-                                    <div class="tw-thumb">
-                                        <img src="./img/blog-widget/2.jpg" alt="#">
-                                    </div>
-                                    <div class="tw-text">
-                                        <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-                                        <h5>The best online game is out now!</h5>
-                                    </div>
-                                </div>
-                                <div class="tw-item">
-                                    <div class="tw-thumb">
-                                        <img src="./img/blog-widget/3.jpg" alt="#">
-                                    </div>
-                                    <div class="tw-text">
-                                        <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-                                        <h5>The best online game is out now!</h5>
-                                    </div>
-                                </div>
-                                <div class="tw-item">
-                                    <div class="tw-thumb">
-                                        <img src="./img/blog-widget/4.jpg" alt="#">
-                                    </div>
-                                    <div class="tw-text">
-                                        <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-                                        <h5>The best online game is out now!</h5>
-                                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-5 sidebar">
+                        <div id="stickySidebar">
+
+                            <div class="widget-item">
+                                <div class="categories-widget">
+                                    <h4 class="widget-title">categorias</h4>
+                                    <ul>
+                                        <li><a href="">Página  Principal</a></li>
+                                        <li><a href="">MRU</a></li>
+                                        <li><a href="">Caída Libre</a></li>
+                                        <li><a href="">Mov Prabólico</a></li>
+                                        <li><a href="">Gamer Fest</a></li>
+                                        <li><a href="">Contáctanos</a></li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="widget-item">
-                            <div class="categories-widget">
-                                <h4 class="widget-title">categories</h4>
-                                <ul>
-                                    <li><a href="">Games</a></li>
-                                    <li><a href="">Gaming Tips & Tricks</a></li>
-                                    <li><a href="">Online Games</a></li>
-                                    <li><a href="">Team Games</a></li>
-                                    <li><a href="">Community</a></li>
-                                    <li><a href="">Uncategorized</a></li>
-                                </ul>
+                            <div class="widget-item">
+                                <a href="#" class="add">
+                                    <img src="./img/add.jpeg" alt="">
+                                </a>
                             </div>
-                        </div>
-                        <div class="widget-item">
-                            <a href="#" class="add">
-                                <img src="./img/add.jpg" alt="">
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Blog section end -->
+        </section>
+        <!-- Blog section end -->
 
 
-    <!-- Intro section -->
-    <section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/promo-bg.jpg">
-        <a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="img/icons/solid-right-arrow.png" alt="#"></a>
-        <div class="container">
-            <div class="video-text">
-                <h2>Promo video of the game</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <!-- Intro section -->
+        <section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/promo-bg.jpg">
+            <a href="https://www.youtube.com/watch?v=Y2F_yPesZO0" class="video-play-btn video-popup"><img src="img/icons/solid-right-arrow.png" alt="#"></a>
+            <div class="container">
+                <div class="video-text">
+                    <h2>Video Caída Libre</h2>
+                    <p>En esta video puedes reforzar tu aprendizaje sobre conocimientosde física en General.</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Intro section end -->
+        </section>
+        <!-- Intro section end -->
 
 
-    <!-- Featured section -->
-    <section class="featured-section">
-        <div class="featured-bg set-bg" data-setbg="img/featured-bg.jpg"></div>
-        <div class="featured-box">
-            <div class="text-box">
-                <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-                <h3>The game you’ve been waiting  for is out now</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum posuere porttitor justo id pellentesque. Proin id lacus feugiat, posuere erat sit amet, commodo ipsum. Donec pellentesque vestibulum metus...</p>
-                <a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+       
+
+
+        <!-- Newsletter section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <h2>Suscríbete</h2>
+                <form class="newsletter-form">
+                    <input type="text" placeholder="DIGITA TU E-MAIL">
+                    <button class="site-btn">suscribirme  <img src="img/icons/double-arrow.png" alt="#"/></button>
+                </form>
             </div>
-        </div>
-    </section>
-    <!-- Featured section end-->
+        </section>
+        <!-- Newsletter section end -->
+        <%@include file="footer.jsp" %>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.sticky-sidebar.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="<c:url value="js/funciones.js"/>"></script>
+
+    </body>
 
 
 
-    <!-- Newsletter section -->
-    <section class="newsletter-section">
-        <div class="container">
-            <h2>Subscribe to our newsletter</h2>
-            <form class="newsletter-form">
-                <input type="text" placeholder="ENTER YOUR E-MAIL">
-                <button class="site-btn">subscribe  <img src="img/icons/double-arrow.png" alt="#"/></button>
-            </form>
-        </div>
-    </section>
-    <!-- Newsletter section end -->
 
 
-    <!-- Footer section -->
-    <footer class="footer-section">
-        <div class="container">
-            <div class="footer-left-pic">
-                <img src="img/footer-left-pic.png" alt="">
-            </div>
-            <div class="footer-right-pic">
-                <img src="img/footer-right-pic.png" alt="">
-            </div>
-            <a href="#" class="footer-logo">
-                <img src="./img/logo.png" alt="">
-            </a>
-            <ul class="main-menu footer-menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Games</a></li>
-                <li><a href="">Reviews</a></li>
-                <li><a href="">News</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-            <div class="footer-social d-flex justify-content-center">
-                <a href="#"><i class="fa fa-pinterest"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-dribbble"></i></a>
-                <a href="#"><i class="fa fa-behance"></i></a>
-            </div>
-            <div class="copyright"><a href="">Colorlib</a> 2018 @ All rights reserved</div>
-        </div>
-    </footer>
-    <!-- Footer section end -->
-
-
-    <!--====== Javascripts & Jquery ======-->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky-sidebar.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/funciones.js"></script>
-
-</body>
 </html>
-
